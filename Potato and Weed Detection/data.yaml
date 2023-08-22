@@ -1,0 +1,6 @@
+train: C:\Users\moayyad\agri_model1\train
+val: C:\Users\moayyad\agri_model1\val
+
+nc: 2
+names: ["weed", "potato"]
+
