@@ -1,0 +1,250 @@
+[1.212s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.213s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff72b7660b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff72b765ba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff72b765ba0>>)
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/moayyed/agri_bot1'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extension 'ignore_ament_install'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extensions ['colcon_pkg']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extension 'colcon_pkg'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extensions ['colcon_meta']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extension 'colcon_meta'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extensions ['ros']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/AI_pkg) by extension 'ros'
+[1.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AI_pkg' with type 'ros.ament_python' and name 'AI_pkg'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extension 'ignore'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extension 'ignore_ament_install'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extensions ['colcon_pkg']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extension 'colcon_pkg'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extensions ['colcon_meta']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extension 'colcon_meta'
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extensions ['ros']
+[1.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_pkg) by extension 'ros'
+[1.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interface_pkg' with type 'ros.ament_cmake' and name 'interface_pkg'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'ignore'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'ignore_ament_install'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['colcon_pkg']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'colcon_pkg'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['colcon_meta']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'colcon_meta'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extensions ['ros']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_pkg) by extension 'ros'
+[1.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors_pkg' with type 'ros.ament_python' and name 'sensors_pkg'
+[1.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.453s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/moayyed/agri_bot1/install
+[1.467s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/moayyed/ros_ws/install
+[1.482s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[1.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'cmake_args' from command line to 'None'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'cmake_target' from command line to 'None'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.578s] Level 5:colcon.colcon_core.verb:set package 'AI_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.578s] DEBUG:colcon.colcon_core.verb:Building package 'AI_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moayyed/agri_bot1/build/AI_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moayyed/agri_bot1/install/AI_pkg', 'merge_install': False, 'path': '/home/moayyed/agri_bot1/src/AI_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'cmake_target' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'interface_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.592s] DEBUG:colcon.colcon_core.verb:Building package 'interface_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moayyed/agri_bot1/build/interface_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moayyed/agri_bot1/install/interface_pkg', 'merge_install': False, 'path': '/home/moayyed/agri_bot1/src/interface_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'cmake_args' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'cmake_target' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'sensors_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.606s] DEBUG:colcon.colcon_core.verb:Building package 'sensors_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moayyed/agri_bot1/build/sensors_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moayyed/agri_bot1/install/sensors_pkg', 'merge_install': False, 'path': '/home/moayyed/agri_bot1/src/sensors_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.620s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.634s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/moayyed/agri_bot1/src/AI_pkg' with build type 'ament_python'
+[1.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('AI_pkg', 'ament_prefix_path')
+[1.657s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/hook/ament_prefix_path.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/hook/ament_prefix_path.dsv'
+[1.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/hook/ament_prefix_path.sh'
+[1.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.737s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/moayyed/agri_bot1/src/interface_pkg' with build type 'ament_cmake'
+[1.737s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/moayyed/agri_bot1/src/interface_pkg'
+[1.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.813s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/moayyed/agri_bot1/src/sensors_pkg' with build type 'ament_python'
+[1.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_pkg', 'ament_prefix_path')
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/hook/ament_prefix_path.ps1'
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/hook/ament_prefix_path.dsv'
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/hook/ament_prefix_path.sh'
+[1.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.156s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/moayyed/agri_bot1/src/AI_pkg'
+[2.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moayyed/agri_bot1/build/interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/agri_bot1/install/AI_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/moayyed/agri_bot1/build/interface_pkg -- -j3 -l3
+[2.536s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/moayyed/agri_bot1/src/sensors_pkg'
+[2.553s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moayyed/agri_bot1/build/interface_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/agri_bot1/install/AI_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/moayyed/agri_bot1/build/interface_pkg -- -j3 -l3
+[3.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moayyed/agri_bot1/build/interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/agri_bot1/install/AI_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/moayyed/agri_bot1/build/interface_pkg
+[3.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moayyed/agri_bot1/src/sensors_pkg': PYTHONPATH=/home/moayyed/agri_bot1/build/sensors_pkg/prefix_override:/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_pkg build --build-base /home/moayyed/agri_bot1/build/sensors_pkg/build install --record /home/moayyed/agri_bot1/build/sensors_pkg/install.log --single-version-externally-managed
+[3.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/moayyed/agri_bot1/src/AI_pkg': PYTHONPATH=/home/moayyed/agri_bot1/build/AI_pkg/prefix_override:/home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/AI_pkg build --build-base /home/moayyed/agri_bot1/build/AI_pkg/build install --record /home/moayyed/agri_bot1/build/AI_pkg/install.log --single-version-externally-managed
+[3.157s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_pkg)
+[3.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moayyed/agri_bot1/build/interface_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/agri_bot1/install/AI_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/moayyed/agri_bot1/build/interface_pkg
+[3.180s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg' for CMake module files
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg' for CMake config files
+[3.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_pkg', 'cmake_prefix_path')
+[3.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/cmake_prefix_path.ps1'
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/cmake_prefix_path.dsv'
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/cmake_prefix_path.sh'
+[3.199s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/lib'
+[3.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_pkg', 'ld_library_path_lib')
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/ld_library_path_lib.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/ld_library_path_lib.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/ld_library_path_lib.sh'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/bin'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/lib/pkgconfig/interface_pkg.pc'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/lib/python3.10/site-packages'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/bin'
+[3.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.ps1'
+[3.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.dsv'
+[3.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.sh'
+[3.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.bash'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.zsh'
+[3.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moayyed/agri_bot1/install/interface_pkg/share/colcon-core/packages/interface_pkg)
+[3.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moayyed/agri_bot1/src/AI_pkg' returned '0': PYTHONPATH=/home/moayyed/agri_bot1/build/AI_pkg/prefix_override:/home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/AI_pkg build --build-base /home/moayyed/agri_bot1/build/AI_pkg/build install --record /home/moayyed/agri_bot1/build/AI_pkg/install.log --single-version-externally-managed
+[3.395s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/AI_pkg' for CMake module files
+[3.395s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/AI_pkg' for CMake config files
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/AI_pkg/lib'
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/AI_pkg/bin'
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/AI_pkg/lib/pkgconfig/AI_pkg.pc'
+[3.396s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages'
+[3.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('AI_pkg', 'pythonpath')
+[3.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/hook/pythonpath.ps1'
+[3.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/hook/pythonpath.dsv'
+[3.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/hook/pythonpath.sh'
+[3.412s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/AI_pkg/bin'
+[3.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(AI_pkg)
+[3.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/package.ps1'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/package.dsv'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/package.sh'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/package.bash'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/AI_pkg/share/AI_pkg/package.zsh'
+[3.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moayyed/agri_bot1/install/AI_pkg/share/colcon-core/packages/AI_pkg)
+[3.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_pkg)
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg' for CMake module files
+[3.465s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg' for CMake config files
+[3.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_pkg', 'cmake_prefix_path')
+[3.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/cmake_prefix_path.ps1'
+[3.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/cmake_prefix_path.dsv'
+[3.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/cmake_prefix_path.sh'
+[3.482s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/lib'
+[3.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_pkg', 'ld_library_path_lib')
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/ld_library_path_lib.ps1'
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/ld_library_path_lib.dsv'
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/hook/ld_library_path_lib.sh'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/bin'
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/lib/pkgconfig/interface_pkg.pc'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/lib/python3.10/site-packages'
+[3.499s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/interface_pkg/bin'
+[3.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.ps1'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.dsv'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.sh'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.bash'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/interface_pkg/share/interface_pkg/package.zsh'
+[3.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moayyed/agri_bot1/install/interface_pkg/share/colcon-core/packages/interface_pkg)
+[3.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/moayyed/agri_bot1/src/sensors_pkg' returned '0': PYTHONPATH=/home/moayyed/agri_bot1/build/sensors_pkg/prefix_override:/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_pkg build --build-base /home/moayyed/agri_bot1/build/sensors_pkg/build install --record /home/moayyed/agri_bot1/build/sensors_pkg/install.log --single-version-externally-managed
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/sensors_pkg' for CMake module files
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/sensors_pkg' for CMake config files
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/sensors_pkg/lib'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/sensors_pkg/bin'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/sensors_pkg/lib/pkgconfig/sensors_pkg.pc'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages'
+[3.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_pkg', 'pythonpath')
+[3.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/hook/pythonpath.ps1'
+[3.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/hook/pythonpath.dsv'
+[3.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/hook/pythonpath.sh'
+[3.550s] Level 1:colcon.colcon_core.environment:checking '/home/moayyed/agri_bot1/install/sensors_pkg/bin'
+[3.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors_pkg)
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/package.ps1'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/package.dsv'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/package.sh'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/package.bash'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg/package.zsh'
+[3.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/moayyed/agri_bot1/install/sensors_pkg/share/colcon-core/packages/sensors_pkg)
+[3.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.569s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.595s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.614s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moayyed/agri_bot1/install/local_setup.ps1'
+[3.631s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/moayyed/agri_bot1/install/_local_setup_util_ps1.py'
+[3.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moayyed/agri_bot1/install/setup.ps1'
+[3.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moayyed/agri_bot1/install/local_setup.sh'
+[3.651s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/moayyed/agri_bot1/install/_local_setup_util_sh.py'
+[3.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moayyed/agri_bot1/install/setup.sh'
+[3.669s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moayyed/agri_bot1/install/local_setup.bash'
+[3.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moayyed/agri_bot1/install/setup.bash'
+[3.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/moayyed/agri_bot1/install/local_setup.zsh'
+[3.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/moayyed/agri_bot1/install/setup.zsh'

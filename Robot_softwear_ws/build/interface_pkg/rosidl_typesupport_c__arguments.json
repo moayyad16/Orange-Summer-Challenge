@@ -1,0 +1,19 @@
+{
+  "package_name": "interface_pkg",
+  "output_dir": "/home/moayyed/agri_bot1/build/interface_pkg/rosidl_typesupport_c/interface_pkg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg:msg/Detection.idl",
+    "/home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg:msg/Point2D.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg/msg/Detection.idl",
+    "/home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg/msg/Point2D.idl"
+  ]
+}

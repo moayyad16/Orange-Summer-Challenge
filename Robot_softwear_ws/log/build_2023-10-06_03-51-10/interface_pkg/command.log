@@ -1,0 +1,2 @@
+Invoking command in '/home/moayyed/agri_bot1/build/interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/moayyed/agri_bot1/build/interface_pkg -- -j3 -l3
+Invoked command in '/home/moayyed/agri_bot1/build/interface_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/moayyed/agri_bot1/build/interface_pkg -- -j3 -l3

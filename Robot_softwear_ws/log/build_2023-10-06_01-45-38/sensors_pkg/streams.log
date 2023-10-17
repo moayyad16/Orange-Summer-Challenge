@@ -1,0 +1,37 @@
+[0.759s] Invoking command in '/home/moayyed/agri_bot1/src/sensors_pkg': PYTHONPATH=/home/moayyed/agri_bot1/build/sensors_pkg/prefix_override:/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_pkg build --build-base /home/moayyed/agri_bot1/build/sensors_pkg/build install --record /home/moayyed/agri_bot1/build/sensors_pkg/install.log --single-version-externally-managed
+[0.988s] running egg_info
+[0.988s] creating ../../build/sensors_pkg/sensors_pkg.egg-info
+[0.988s] writing ../../build/sensors_pkg/sensors_pkg.egg-info/PKG-INFO
+[0.988s] writing dependency_links to ../../build/sensors_pkg/sensors_pkg.egg-info/dependency_links.txt
+[0.988s] writing entry points to ../../build/sensors_pkg/sensors_pkg.egg-info/entry_points.txt
+[0.989s] writing requirements to ../../build/sensors_pkg/sensors_pkg.egg-info/requires.txt
+[0.989s] writing top-level names to ../../build/sensors_pkg/sensors_pkg.egg-info/top_level.txt
+[0.989s] writing manifest file '../../build/sensors_pkg/sensors_pkg.egg-info/SOURCES.txt'
+[0.990s] reading manifest file '../../build/sensors_pkg/sensors_pkg.egg-info/SOURCES.txt'
+[0.991s] writing manifest file '../../build/sensors_pkg/sensors_pkg.egg-info/SOURCES.txt'
+[0.991s] running build
+[0.991s] running build_py
+[0.991s] creating /home/moayyed/agri_bot1/build/sensors_pkg/build
+[0.991s] creating /home/moayyed/agri_bot1/build/sensors_pkg/build/lib
+[0.991s] creating /home/moayyed/agri_bot1/build/sensors_pkg/build/lib/sensors_pkg
+[0.992s] copying sensors_pkg/live_camera.py -> /home/moayyed/agri_bot1/build/sensors_pkg/build/lib/sensors_pkg
+[0.992s] copying sensors_pkg/__init__.py -> /home/moayyed/agri_bot1/build/sensors_pkg/build/lib/sensors_pkg
+[0.992s] running install
+[0.992s] running install_lib
+[0.992s] creating /home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg
+[0.992s] copying /home/moayyed/agri_bot1/build/sensors_pkg/build/lib/sensors_pkg/live_camera.py -> /home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg
+[0.992s] copying /home/moayyed/agri_bot1/build/sensors_pkg/build/lib/sensors_pkg/__init__.py -> /home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg
+[0.993s] byte-compiling /home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg/live_camera.py to live_camera.cpython-310.pyc
+[0.993s] byte-compiling /home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg/__init__.py to __init__.cpython-310.pyc
+[0.993s] running install_data
+[0.994s] creating /home/moayyed/agri_bot1/install/sensors_pkg/share/ament_index
+[0.994s] creating /home/moayyed/agri_bot1/install/sensors_pkg/share/ament_index/resource_index
+[0.994s] creating /home/moayyed/agri_bot1/install/sensors_pkg/share/ament_index/resource_index/packages
+[0.994s] copying resource/sensors_pkg -> /home/moayyed/agri_bot1/install/sensors_pkg/share/ament_index/resource_index/packages
+[0.994s] copying package.xml -> /home/moayyed/agri_bot1/install/sensors_pkg/share/sensors_pkg
+[0.994s] running install_egg_info
+[0.996s] Copying ../../build/sensors_pkg/sensors_pkg.egg-info to /home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg-0.0.0-py3.10.egg-info
+[0.996s] running install_scripts
+[1.013s] Installing live_camera script to /home/moayyed/agri_bot1/install/sensors_pkg/lib/sensors_pkg
+[1.013s] writing list of installed files to '/home/moayyed/agri_bot1/build/sensors_pkg/install.log'
+[1.034s] Invoked command in '/home/moayyed/agri_bot1/src/sensors_pkg' returned '0': PYTHONPATH=/home/moayyed/agri_bot1/build/sensors_pkg/prefix_override:/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_pkg build --build-base /home/moayyed/agri_bot1/build/sensors_pkg/build install --record /home/moayyed/agri_bot1/build/sensors_pkg/install.log --single-version-externally-managed

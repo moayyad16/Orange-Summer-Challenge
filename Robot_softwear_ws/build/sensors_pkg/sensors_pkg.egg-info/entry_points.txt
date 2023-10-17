@@ -1,0 +1,3 @@
+[console_scripts]
+live_camera = sensors_pkg.live_camera:main
+

@@ -1,0 +1,63 @@
+[0.081s] Invoking command in '/home/moayyed/agri_bot1/build/interface_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/moayyed/agri_bot1/src/interface_pkg -DCMAKE_INSTALL_PREFIX=/home/moayyed/agri_bot1/install/interface_pkg
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.426s] -- The CXX compiler identification is GNU 11.4.0
+[0.447s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.549s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.550s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.557s] -- Detecting CXX compiler ABI info
+[0.653s] -- Detecting CXX compiler ABI info - done
+[0.659s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.659s] -- Detecting CXX compile features
+[0.660s] -- Detecting CXX compile features - done
+[0.673s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.010s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.034s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.119s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.375s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.375s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.375s]   interface_pkg --arguments-file
+[1.376s]   /home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter__arguments__interface_pkg.json
+[1.376s]   --output-dir
+[1.376s]   /home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg
+[1.376s]   --output-file
+[1.376s]   /home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg.idls)
+[1.376s]   returned error code 1:
+[1.376s] 
+[1.376s]   Error processing 'int64 position.x' of 'interface_pkg/Detection':
+[1.376s]   ''position.x' is an invalid field name.  It should have the pattern
+[1.376s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.376s] 
+[1.376s]   Traceback (most recent call last):
+[1.376s] 
+[1.376s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.376s]       return _run_code(code, main_globals, None,
+[1.376s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.376s]       exec(code, run_globals)
+[1.376s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.376s]       sys.exit(main())
+[1.377s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.377s]       abs_idl_file = convert_to_idl(
+[1.377s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.377s]       return convert_msg_to_idl(
+[1.377s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.377s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.377s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[1.377s]       fields.append(Field(
+[1.377s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[1.377s]       raise NameError(
+[1.377s] 
+[1.377s]   NameError: 'position.x' is an invalid field name.  It should have the
+[1.377s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.377s] 
+[1.377s] Call Stack (most recent call first):
+[1.377s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.377s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[1.377s] 
+[1.378s] [0m
+[1.378s] -- Configuring incomplete, errors occurred!
+[1.378s] See also "/home/moayyed/agri_bot1/build/interface_pkg/CMakeFiles/CMakeOutput.log".
+[1.381s] Invoked command in '/home/moayyed/agri_bot1/build/interface_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/moayyed/agri_bot1/src/interface_pkg -DCMAKE_INSTALL_PREFIX=/home/moayyed/agri_bot1/install/interface_pkg

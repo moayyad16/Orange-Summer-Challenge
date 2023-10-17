@@ -1,0 +1,9 @@
+setup.py
+interface_pkg/__init__.py
+interface_pkg.egg-info/PKG-INFO
+interface_pkg.egg-info/SOURCES.txt
+interface_pkg.egg-info/dependency_links.txt
+interface_pkg.egg-info/top_level.txt
+interface_pkg/msg/__init__.py
+interface_pkg/msg/_detection.py
+interface_pkg/msg/_point2_d.py

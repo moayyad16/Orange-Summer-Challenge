@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface_pkg/msg/Detection.msg
+// generated code does not contain a copyright notice
+
+#include "interface_pkg/msg/Point2D.idl"
+
+module interface_pkg {
+  module msg {
+    struct Detection {
+      string object_name;
+
+      interface_pkg::msg::Point2D position;
+
+      double confidence_score;
+    };
+  };
+};

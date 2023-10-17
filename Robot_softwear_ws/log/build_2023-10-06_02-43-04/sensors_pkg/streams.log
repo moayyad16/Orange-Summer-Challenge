@@ -1,0 +1,21 @@
+[1.304s] Invoking command in '/home/moayyed/agri_bot1/src/sensors_pkg': PYTHONPATH=/home/moayyed/agri_bot1/build/sensors_pkg/prefix_override:/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_pkg build --build-base /home/moayyed/agri_bot1/build/sensors_pkg/build install --record /home/moayyed/agri_bot1/build/sensors_pkg/install.log --single-version-externally-managed
+[1.561s] running egg_info
+[1.562s] writing ../../build/sensors_pkg/sensors_pkg.egg-info/PKG-INFO
+[1.562s] writing dependency_links to ../../build/sensors_pkg/sensors_pkg.egg-info/dependency_links.txt
+[1.562s] writing entry points to ../../build/sensors_pkg/sensors_pkg.egg-info/entry_points.txt
+[1.562s] writing requirements to ../../build/sensors_pkg/sensors_pkg.egg-info/requires.txt
+[1.563s] writing top-level names to ../../build/sensors_pkg/sensors_pkg.egg-info/top_level.txt
+[1.565s] reading manifest file '../../build/sensors_pkg/sensors_pkg.egg-info/SOURCES.txt'
+[1.565s] writing manifest file '../../build/sensors_pkg/sensors_pkg.egg-info/SOURCES.txt'
+[1.566s] running build
+[1.566s] running build_py
+[1.566s] running install
+[1.566s] running install_lib
+[1.567s] running install_data
+[1.568s] running install_egg_info
+[1.569s] removing '/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.570s] Copying ../../build/sensors_pkg/sensors_pkg.egg-info to /home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages/sensors_pkg-0.0.0-py3.10.egg-info
+[1.570s] running install_scripts
+[1.589s] Installing live_camera script to /home/moayyed/agri_bot1/install/sensors_pkg/lib/sensors_pkg
+[1.589s] writing list of installed files to '/home/moayyed/agri_bot1/build/sensors_pkg/install.log'
+[1.613s] Invoked command in '/home/moayyed/agri_bot1/src/sensors_pkg' returned '0': PYTHONPATH=/home/moayyed/agri_bot1/build/sensors_pkg/prefix_override:/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_pkg build --build-base /home/moayyed/agri_bot1/build/sensors_pkg/build install --record /home/moayyed/agri_bot1/build/sensors_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (-) JobUnselected: {'identifier': 'AI_pkg'}
+[0.000999] (-) JobUnselected: {'identifier': 'sensors_pkg'}
+[0.001050] (interface_pkg) JobQueued: {'identifier': 'interface_pkg', 'dependencies': OrderedDict()}
+[0.001071] (interface_pkg) JobStarted: {'identifier': 'interface_pkg'}
+[0.080762] (interface_pkg) JobProgress: {'identifier': 'interface_pkg', 'progress': 'cmake'}
+[0.081095] (interface_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/moayyed/agri_bot1/src/interface_pkg', '-DCMAKE_INSTALL_PREFIX=/home/moayyed/agri_bot1/install/interface_pkg'], 'cwd': '/home/moayyed/agri_bot1/build/interface_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'moayyed'), ('LC_TIME', 'ar_JO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moayyed/ros_ws/install/msg_pkg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/moayyed'), ('OLDPWD', '/home/moayyed'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_JO.UTF-8'), ('MANAGERPID', '1595'), ('SYSTEMD_EXEC_PID', '1775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3839'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/moayyed/agri_bot1/install:/home/moayyed/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moayyed'), ('JOURNAL_STREAM', '8:41045'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'moayyed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/moayyed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mido-machine:@/tmp/.ICE-unix/1752,unix/mido-machine:/tmp/.ICE-unix/1752'), ('INVOCATION_ID', 'cb24b274636f4e559e80d414e556a346'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_JO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_JO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PXW1B2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/home/moayyed/ros_ws/install/my_cpp_pkg:/home/moayyed/ros_ws/install/msg_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_JO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6ea607cb-de6a-4c39-8ad0-d1bc8d262d30'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_JO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_JO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/moayyed/agri_bot1/build/interface_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moayyed/agri_bot1/install/sensors_pkg/lib/python3.10/site-packages:/home/moayyed/ros_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/moayyed/ros_ws/install/msg_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_JO.UTF-8'), ('LC_PAPER', 'ar_JO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/moayyed/ros_ws/install/my_cpp_pkg:/home/moayyed/ros_ws/install/msg_pkg:/home/moayyed/agri_bot1/install/sensors_pkg:/home/moayyed/ros_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099242] (-) TimerEvent: {}
+[0.199659] (-) TimerEvent: {}
+[0.267392] (interface_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299769] (-) TimerEvent: {}
+[0.400112] (-) TimerEvent: {}
+[0.426459] (interface_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.448234] (interface_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500242] (-) TimerEvent: {}
+[0.542477] (interface_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.549586] (interface_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.550718] (interface_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.552579] (interface_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.557895] (interface_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600400] (-) TimerEvent: {}
+[0.653509] (interface_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.660108] (interface_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.660491] (interface_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.660915] (interface_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.674072] (interface_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700544] (-) TimerEvent: {}
+[0.800859] (-) TimerEvent: {}
+[0.859122] (interface_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.901035] (-) TimerEvent: {}
+[1.001357] (-) TimerEvent: {}
+[1.010767] (interface_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.019630] (interface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.034941] (interface_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.101481] (-) TimerEvent: {}
+[1.120377] (interface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201632] (-) TimerEvent: {}
+[1.301956] (-) TimerEvent: {}
+[1.376206] (interface_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.376489] (interface_pkg) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.376551] (interface_pkg) StderrLine: {'line': b'  interface_pkg --arguments-file\n'}
+[1.376605] (interface_pkg) StderrLine: {'line': b'  /home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter__arguments__interface_pkg.json\n'}
+[1.376659] (interface_pkg) StderrLine: {'line': b'  --output-dir\n'}
+[1.376710] (interface_pkg) StderrLine: {'line': b'  /home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg\n'}
+[1.376762] (interface_pkg) StderrLine: {'line': b'  --output-file\n'}
+[1.376812] (interface_pkg) StderrLine: {'line': b'  /home/moayyed/agri_bot1/build/interface_pkg/rosidl_adapter/interface_pkg.idls)\n'}
+[1.376862] (interface_pkg) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.376912] (interface_pkg) StderrLine: {'line': b'\n'}
+[1.376995] (interface_pkg) StderrLine: {'line': b"  Error processing 'int64 position.x' of 'interface_pkg/Detection':\n"}
+[1.377045] (interface_pkg) StderrLine: {'line': b"  ''position.x' is an invalid field name.  It should have the pattern\n"}
+[1.377095] (interface_pkg) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[1.377144] (interface_pkg) StderrLine: {'line': b'\n'}
+[1.377193] (interface_pkg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.377242] (interface_pkg) StderrLine: {'line': b'\n'}
+[1.377291] (interface_pkg) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.377345] (interface_pkg) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.377397] (interface_pkg) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.377449] (interface_pkg) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.377496] (interface_pkg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.377549] (interface_pkg) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.377596] (interface_pkg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.377648] (interface_pkg) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.377695] (interface_pkg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.377747] (interface_pkg) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.377795] (interface_pkg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.377847] (interface_pkg) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.377895] (interface_pkg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string\n'}
+[1.377966] (interface_pkg) StderrLine: {'line': b'      fields.append(Field(\n'}
+[1.378051] (interface_pkg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__\n'}
+[1.378116] (interface_pkg) StderrLine: {'line': b'      raise NameError(\n'}
+[1.378163] (interface_pkg) StderrLine: {'line': b'\n'}
+[1.378215] (interface_pkg) StderrLine: {'line': b"  NameError: 'position.x' is an invalid field name.  It should have the\n"}
+[1.378263] (interface_pkg) StderrLine: {'line': b"  pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[1.378314] (interface_pkg) StderrLine: {'line': b'\n'}
+[1.378361] (interface_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.378418] (interface_pkg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.378467] (interface_pkg) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[1.378518] (interface_pkg) StderrLine: {'line': b'\n'}
+[1.378571] (interface_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.378624] (interface_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.378680] (interface_pkg) StdoutLine: {'line': b'See also "/home/moayyed/agri_bot1/build/interface_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[1.381552] (interface_pkg) CommandEnded: {'returncode': 1}
+[1.402924] (-) TimerEvent: {}
+[1.429597] (interface_pkg) JobEnded: {'identifier': 'interface_pkg', 'rc': 1}
+[1.440669] (-) EventReactorShutdown: {}

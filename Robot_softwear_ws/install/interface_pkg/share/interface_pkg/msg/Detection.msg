@@ -1,0 +1,3 @@
+string object_name
+Point2D position
+float64 confidence_score

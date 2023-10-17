@@ -1,0 +1,7 @@
+{
+  "package_name": "interface_pkg",
+  "non_idl_tuples": [
+    "/home/moayyed/agri_bot1/src/interface_pkg:msg/Detection.msg",
+    "/home/moayyed/agri_bot1/src/interface_pkg:msg/Point2D.msg"
+  ]
+}

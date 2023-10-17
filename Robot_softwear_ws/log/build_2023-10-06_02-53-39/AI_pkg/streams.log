@@ -1,0 +1,24 @@
+[1.420s] Invoking command in '/home/moayyed/agri_bot1/src/AI_pkg': PYTHONPATH=/home/moayyed/agri_bot1/build/AI_pkg/prefix_override:/home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/AI_pkg build --build-base /home/moayyed/agri_bot1/build/AI_pkg/build install --record /home/moayyed/agri_bot1/build/AI_pkg/install.log --single-version-externally-managed
+[1.668s] running egg_info
+[1.668s] writing ../../build/AI_pkg/AI_pkg.egg-info/PKG-INFO
+[1.669s] writing dependency_links to ../../build/AI_pkg/AI_pkg.egg-info/dependency_links.txt
+[1.669s] writing entry points to ../../build/AI_pkg/AI_pkg.egg-info/entry_points.txt
+[1.669s] writing requirements to ../../build/AI_pkg/AI_pkg.egg-info/requires.txt
+[1.669s] writing top-level names to ../../build/AI_pkg/AI_pkg.egg-info/top_level.txt
+[1.671s] reading manifest file '../../build/AI_pkg/AI_pkg.egg-info/SOURCES.txt'
+[1.672s] writing manifest file '../../build/AI_pkg/AI_pkg.egg-info/SOURCES.txt'
+[1.672s] running build
+[1.672s] running build_py
+[1.672s] copying AI_pkg/detection_model.py -> /home/moayyed/agri_bot1/build/AI_pkg/build/lib/AI_pkg
+[1.673s] running install
+[1.673s] running install_lib
+[1.673s] copying /home/moayyed/agri_bot1/build/AI_pkg/build/lib/AI_pkg/detection_model.py -> /home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages/AI_pkg
+[1.674s] byte-compiling /home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages/AI_pkg/detection_model.py to detection_model.cpython-310.pyc
+[1.675s] running install_data
+[1.675s] running install_egg_info
+[1.677s] removing '/home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages/AI_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.677s] Copying ../../build/AI_pkg/AI_pkg.egg-info to /home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages/AI_pkg-0.0.0-py3.10.egg-info
+[1.678s] running install_scripts
+[1.697s] Installing detection_model script to /home/moayyed/agri_bot1/install/AI_pkg/lib/AI_pkg
+[1.697s] writing list of installed files to '/home/moayyed/agri_bot1/build/AI_pkg/install.log'
+[1.730s] Invoked command in '/home/moayyed/agri_bot1/src/AI_pkg' returned '0': PYTHONPATH=/home/moayyed/agri_bot1/build/AI_pkg/prefix_override:/home/moayyed/agri_bot1/install/AI_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/AI_pkg build --build-base /home/moayyed/agri_bot1/build/AI_pkg/build install --record /home/moayyed/agri_bot1/build/AI_pkg/install.log --single-version-externally-managed

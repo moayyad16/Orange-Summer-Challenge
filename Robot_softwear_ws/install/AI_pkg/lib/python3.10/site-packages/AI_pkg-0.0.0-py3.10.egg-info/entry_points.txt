@@ -1,0 +1,3 @@
+[console_scripts]
+detection_model = AI_pkg.detection_model:main
+
