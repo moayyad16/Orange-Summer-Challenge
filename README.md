@@ -1,6 +1,6 @@
 # Orange Summer Challenge 
 ## Overview
-During the summer of 2023, I began training at Orange Digital Village, where we decided to embark on a project involving an agricultural robot. The primary function of this robot is to eradicate weeds by accurately spraying them with a weed-specific pesticide.
+During the summer of 2023, I began training at Orange Digital Village in Jordan, where we decided to embark on a project involving an agricultural robot. The primary function of this robot is to eradicate weeds by accurately spraying them with a weed-specific pesticide.
 
 ![Picture1](https://github.com/moayyad16/Orange-Summer-Challenge-/assets/93573570/e190852d-fe2f-4d86-81a4-5f2acdfb36c2)
 
